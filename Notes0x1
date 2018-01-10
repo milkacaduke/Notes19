@@ -11,7 +11,39 @@ sorted(list) vs list.sort()
   Use sorted() if you need the orignal position.
   Use list.sort() if you want to mutate the list.
   
+Dictionary
+
+  Creating an empty dictionary
+    data = {}
+    # or
+    data = dict()
   
+  Creating a dictionary with initial values
+    data = {'a':1, 'b':2, 'c':3}
+    # or
+    data = dict(a=1, b=2, c=3)
+    # or
+    data = {k:v for k, v in(('a', 1), ('b', 2), ('c',3))}
+    
+  Inserting/Updating a single value
+    data['a'] = 1   # Updates if 'a' exists, else adds 'a'
+    # or
+    data.update({'a':1})
+    # or
+    data.update(dict(a=1))
+    # or
+    data.update(a=1)
+    
+  Inserting/Updating multi value
+    data.update({'c':3, 'd':4})   # Updates 'c' and adds 'd'
+    
+  Creating a merged dictionary without modifying original
+    data3 = {}
+    data3.update(data)  # Modifies data3, not data
+    data3.update(data2)  # Modifies data3, not data2
 
-
+  Deleting items in dictionary
+    del data[key]  # Removes specific element in a dictionary
+    data.pop(key)  # Removes the key & returns the value
+    data.clear()  # Clears entire dictionary
 
