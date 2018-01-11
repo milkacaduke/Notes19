@@ -47,3 +47,10 @@ Dictionary
     data.pop(key)  # Removes the key & returns the value
     data.clear()  # Clears entire dictionary
 
+  Iterate through pairs in a dictionary
+    for key in data: # Iterates just through the keys, ignore value
+    for key, value in d.item(): # Iterates through the pairs
+    
+  Check if a key is already in dictionary
+    key in data
+    
