@@ -76,4 +76,5 @@ In Binary Search Tree, Inorder Successor of an input node can also be defined as
     - If right subtree of node is not NULL, then succ lies in right subtree.
     - If right subtree of node is NULL, then succ is one of the ancestors.
 2. Method 2 (Search from root)
+
 [ref](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
