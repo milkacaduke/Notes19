@@ -54,3 +54,21 @@ Dictionary
   Check if a key is already in dictionary
     key in data
     
+    
+   
+Binary Search Tree
+  Inorder Successor in Binary Search Tree - 
+    In Binary Tree, Inorder successor of a node is the next node in Inorder traversal of the Binary Tree.
+    In Binary Search Tree, Inorder Successor of an input node can also be defined as the node with the smallest key greater than the key of input node.
+    
+  How to find Inorder Successor in Binary Search Tree?
+    - Method 1 (Uses Parent Pointer)
+      Assume that every node has parent pointer
+        1) If right subtree of node is not NULL, then succ lies in right subtree.
+        2) If right subtree of node is NULL, then succ is one of the ancestors.
+        
+    - Method 2 (Search from root)
+    
+    
+    ref: https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+    
