@@ -82,7 +82,7 @@ In Binary Search Tree, Inorder Successor of an input node can also be defined as
 **Inorder vs Preorder vs Postorder**  
 **....A  
 ..B...C**  
-`ABC vs BAC vs ACB`
+`ABC (left root right) vs BAC (root left right) vs BCA (left right root)`
 
 **The left of n node is always smaller than n, The right of n node is always larger than n.**
 
