@@ -78,3 +78,14 @@ In Binary Search Tree, Inorder Successor of an input node can also be defined as
 2. Method 2 (Search from root)
 
 [ref](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
+
+**Inorder vs Preorder vs Postorder**  
+**....A  
+..B...C**
+
+ABC vs BAC vs ACB
+
+
+
+
+
