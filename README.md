@@ -73,9 +73,16 @@ In Binary Search Tree, Inorder Successor of an input node can also be defined as
 **How to find Inorder Successor in Binary Search Tree?**  
 1. Method 1 (Uses Parent Pointer)
     Assume that every node has parent pointer
-    - If right subtree of node is not NULL, then succ lies in right subtree.
-    - If right subtree of node is NULL, then succ is one of the ancestors.
+    * If right subtree of node is not NULL, then succ lies in right subtree.
+        - Go to right subtree and return the node with min key value.
+    * If right subtree of node is NULL, then succ is one of the ancestors.
+        - Travel up using parent pointer until you see a node which is: left child of its parent.
 2. Method 2 (Search from root)
+    No parent pointer needed, 2 cases:
+    * If right subtree of node is not NULL, then succ lies in right subtree.
+        - Go to right subtree and return the node with min key value.
+    * If right subtree of node is Node, then start from root and search.
+        - Traval down the tree, if a node's data is > than roots data, go right side, else go left.
 
 [ref](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
 
