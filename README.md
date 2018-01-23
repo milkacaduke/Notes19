@@ -94,5 +94,11 @@ In Binary Search Tree, Inorder Successor of an input node can also be defined as
 **The left of n node is always smaller than n, The right of n node is always larger than n.**
 
 
+## Linked List
+**Singlely Linked List vs Doublely Linked list**
+Operation time is the same except **Remove last element**
+SLL: O(n)  
+DLL: O(1)  
+
 
 
