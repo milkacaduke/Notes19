@@ -1,5 +1,9 @@
 # Notes 19
 
+## [Python] continue vs pass
+continue forces the loop to start at the next iteration  
+while pass means "there is no code to execute here" and will continue through the remainder or the loop body.
+
 ## sorted(list) vs list.sort()  
 * `sorted()` Returns a new sorted list, original list unchanged.
 * `list.sort()` Sorts in-place, returns None. Faster (cuz dont have to create copy).  
