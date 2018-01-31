@@ -1,4 +1,5 @@
 # Notes 19
+## [Python] In Python, the basic List is actually an ArrayList. 
 
 ## [Python] continue vs pass
 continue forces the loop to start at the next iteration  
