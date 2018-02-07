@@ -1,4 +1,14 @@
 # Notes 19
+
+
+## [JS] var vs const vs let
+var - function scoped  
+const, let - block scoped - cannot redeclare in same scope twice.  
+cosnt object = {} you can actually change the object's attributes, but you cant delete or reassign the object.  
+Think of it as "I will always be the same person, but my attribute might change overtime."
+
+
+
 ## [Python] In Python, the basic List is actually an ArrayList. 
 
 ## [Python] continue vs pass
